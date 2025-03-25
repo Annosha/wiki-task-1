@@ -5,9 +5,11 @@ function Hobby({ background, bannerText, imageUrl }) {
     <div
       className="banner"
       style={{
-        backgroundColor: background,
-        backgroundImage: `url(${imageUrl})`,
-        backgroundSize: 'fill',
+        backgroundColor: background, 
+        backgroundImage: `url(${imageUrl})`, 
+        backgroundSize: 'contain', 
+        backgroundPosition: 'center', 
+        backgroundRepeat: 'no-repeat', 
         color: '#fff',
         height: '500px',
         display: 'flex',

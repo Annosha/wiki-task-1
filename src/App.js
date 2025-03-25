@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome to My Page, My name is Behroze Aslam</h1>
+      <h1>Welcome to My Page, My name is Annosha</h1>
 
 
       <Hobby background={background} bannerText={bannerText} imageUrl={imageUrl} />
